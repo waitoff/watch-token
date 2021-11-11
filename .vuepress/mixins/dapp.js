@@ -87,12 +87,14 @@ export default {
             etherscanLink: 'http://explorer.joys.digital',
             id: 35855456,
             name: 'Joys Network',
+            explorerName: 'JoysScan',
           },
           toys: {
             web3Provider: `https://node.toys-pos.joys.cash/`,
             etherscanLink: 'https://testing.explorer.joys.digital/',
             id: 99415706,
             name: 'Joys Test Network',
+            explorerName: 'ToysScan',
           },
 
         },
