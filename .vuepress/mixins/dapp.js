@@ -21,6 +21,9 @@ export default {
           5: 'goerli',
           56: 'bsc_mainnet',
           97: 'bsc_testnet',
+          35855456: 'joys',
+          99415706: 'toys',
+
         },
         list: {
           mainnet: {
@@ -79,6 +82,19 @@ export default {
             id: 97,
             name: 'Binance Smart Chain - Testnet',
           },
+          joys: {
+            web3Provider: `https://node.joys.digital`,
+            etherscanLink: 'http://explorer.joys.digital',
+            id: 35855456,
+            name: 'Joys Network',
+          },
+          toys: {
+            web3Provider: `https://node.toys-pos.joys.cash/`,
+            etherscanLink: 'https://testing.explorer.joys.digital/',
+            id: 99415706,
+            name: 'Joys Test Network',
+          },
+
         },
       },
       contracts: {
